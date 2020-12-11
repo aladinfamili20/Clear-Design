@@ -1,0 +1,145 @@
+.header {
+    overflow: hidden;  
+    padding: 5px 10px;
+    width: 1470px;
+    float: right;
+    background-color: none;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: #002E5D;
+    text-align: center;
+    padding: 60px 70px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 0px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolders;
+
+  }
+  
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: rgb(206, 206, 206);
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.websites {
+    background-color: teal;
+    color: white;
+  }
+
+  /* Float the link section to the right */
+.header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+  .box{
+      height: 1px;
+      background-color: black;
+      width: 100%;
+      margin-bottom: 40px;
+  }
+  
+  .box1 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+    color: black;
+    text-align: center;
+  }
+
+  .box2 h1{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .box3 h1{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+  }
+
+  .web{
+    width: 100%;
+    height: 800px;
+    background-color: tomato;
+  }
+
+  .site{
+    width: 50%;
+    float: left;
+    height: 800px;
+    background-color: teal;
+  }  
+
+  .site h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .site h2{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .client h2{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .job h2{
+    text-decoration: underline;
+    color: black;
+  }
+
+  .box4{
+    height: 1px;
+    background-color: black;
+  }
+
+  .box5 h1{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 70px;
+  }
+
+  .box6{
+    float: right;
+  }
+
+  footer{
+    background-color: teal;
+    height: 0.6in;
+}
+
+footer h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    padding-top: 8px;
+    text-align: center;
+}
